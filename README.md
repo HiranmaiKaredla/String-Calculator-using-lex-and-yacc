@@ -4,8 +4,10 @@ Using LEX and Yacc achieve the following tasks. This is similar to Calculator, e
 strings.
 Text processor: Let op1 and op2 are operands whose values are text (contains alphanumeric
 characters).
-op1 * op2 is concatenation of the two operands.
-op1~op2 is true if op1 is a prefix of op2 (Eg: abc ~ abcd has value true).
+
+1. op1 * op2 is concatenation of the two operands.
+
+2.op1~op2 is true if op1 is a prefix of op2 (Eg: abc ~ abcd has value true).
 op1@op2 is true if op1 is a suffix of op2
 op1#op2 is true if op1 is a substring of op2
 op1 = op2 is true if both operands are equal.
